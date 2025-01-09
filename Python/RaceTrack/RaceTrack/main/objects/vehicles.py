@@ -38,12 +38,6 @@ cpp_dll.slip_wheels.argtypes = [
     ctypes.POINTER(ctypes.c_bool)
 ]
 
-cpp_dll.reset_speed.argtypes = [
-    ctypes.POINTER(ctypes.c_float),
-    ctypes.c_float,
-    ctypes.POINTER(ctypes.c_bool)
-]
-
 cpp_dll.consume_fuel.argtypes = [
     ctypes.POINTER(ctypes.c_float),
     ctypes.c_float
@@ -225,7 +219,6 @@ class Car:
 
     def get_sprite_dimensions(self):
         return self.SPRITE_WIDTH, self.SPRITE_HEIGHT
-
 
 class CarWithFuel(Car):
     SPRITE_WIDTH = SPRITE_HEIGHT = 16

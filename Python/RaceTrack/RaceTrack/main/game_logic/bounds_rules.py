@@ -32,7 +32,6 @@ class CRBoundsRule(BoundsRule):
     def is_within_bounds(self, x, y):
         return bounds_rules.check_within_cr_bounds(x, y)
 
-
 class FF1BoundsRule(BoundsRule):
     def apply_bounds(self, car, prev_x, prev_y):
         x, y = car.get_x(), car.get_y()

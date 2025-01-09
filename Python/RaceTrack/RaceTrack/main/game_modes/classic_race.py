@@ -8,7 +8,7 @@ from objects.vehicles import Car, Bolide, Supercar
 from objects.pedestrians import Pedestrian, StandingPedestrian, DiagonalPedestrian
 from display.car_selector import create_car_selection
 from utilities.audio import play_music
-from utilities.rendering import draw_screen, draw_car, draw_nitro_indicator, show_end_screen, show_traffic_light
+from utilities.rendering import draw_cr_screen, draw_car, draw_nitro_indicator, show_end_screen, show_traffic_light
 from game_logic.bounds_rules import get_bounds_rule_for_map
 from game_logic.cr_logic import (
     handle_terrain,
@@ -141,12 +141,12 @@ def classic_race():
 
         update_checkpoints(car.get_x(), car.get_y(), player_checkpoints)
         check_lap_completion(car, player_checkpoints, laps_completed)
-        #handle_enemy_ai(enemy, car, enemy_checkpoints, laps_completed)
+        handle_enemy_ai(enemy, car, enemy_checkpoints, laps_completed)
 
         for pedestrian in pedestrians:
             pedestrian.move()
 
-        previous_leader = draw_screen(
+        previous_leader = draw_cr_screen(
             screen, game_map_texture, car, enemy, pedestrians,
             BLACK_SPACE_WIDTH, SCREEN_HEIGHT, laps_completed, player_checkpoints, enemy_checkpoints, previous_leader, max_lap
         )

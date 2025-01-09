@@ -1,9 +1,8 @@
-﻿  canister_effects.cpp
-  cr_logic.cpp
+﻿  cr_logic.cpp
      Creating library C:\CourseWork\C++\FastCompute\x64\Release\FastCompute.lib and object C:\CourseWork\C++\FastCompute\x64\Release\FastCompute.exp
   Generating code
-  14 of 136 functions (10.3%) were compiled, the rest were copied from previous compilation.
-    12 functions were new in current compilation
-    4 functions had inline decision re-evaluated but remain unchanged
+  0 of 38 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   FastCompute.vcxproj -> C:\CourseWork\C++\FastCompute\x64\Release\FastCompute.dll

@@ -6,7 +6,7 @@ sys.path.append(str(Path(__file__).resolve().parent.parent))
 import pygame
 from objects.vehicles import CarWithFuel, Bolide, Supercar
 from objects.canisters import Canister, RepairKitCanister, SuspiciousCanister
-from utilities.rendering import draw_canister, draw_fuel_indicator, draw_hud, draw_obstacle, draw_rails, draw_pedestrian, stop_all_sounds, show_end_screen, draw_road_texture
+from utilities.rendering import draw_canister, draw_fuel_indicator, draw_ff_hud, draw_obstacle, draw_rails, draw_pedestrian, stop_all_sounds, show_end_screen, draw_road_texture
 from game_logic.ff_spawn_objects import (
     generate_random_x, generate_random_y, generate_minecarts, generate_random_obstacles,
     generate_tumbleweeds, reset_obstacle_position, spawn_suspicious_canisters,
@@ -21,7 +21,6 @@ from objects.obstacles import Obstacle, Tumbleweed, Minecart
 from utilities.audio import play_music
 from objects.maps import MapFF
 from game_logic.bounds_rules import get_bounds_rule_for_map
-
 
 def fuel_frenzy():
     pygame.init()
@@ -52,7 +51,8 @@ def fuel_frenzy():
     car = create_car_selection(screen, mode, spawn, None)
     play_music(current_map.get_music_path(), volume=0.3, loop=-1)
 
-    laps = 5
+    max_laps = 10
+    laps = 0
     lap_completed = True
     car.engine.set_consumption_rate(0.1 * laps)
     Canister.load_textures()
@@ -132,7 +132,7 @@ def fuel_frenzy():
         if 340 <= prev_y and car.get_y() >= 340 and 210 <= car.get_x() <= 330 and lap_completed and not map_switched:
             laps, lap_completed = update_lap(car, laps, lap_completed)
 
-        if laps >= 10 and lap_completed and not map_switched:
+        if laps >= max_laps and lap_completed and not map_switched:
             map_switched = True
             current_map, bounds_rule = switch_map(car, road_map2, canisters, obstacles, moving_obstacles, active_rails)
 
@@ -148,7 +148,7 @@ def fuel_frenzy():
 
         screen.blit(car.get_current_texture(), (car.get_x(), SCREEN_HEIGHT // 2))
         draw_fuel_indicator(screen, car.fuel_tank.get_fuel_level(), SCREEN_WIDTH, SCREEN_HEIGHT)
-        draw_hud(screen, car, laps)
+        draw_ff_hud(screen, car, laps, max_laps)
         pygame.display.flip()
         clock.tick(60)
 
@@ -160,7 +160,6 @@ def fuel_frenzy():
             running = False
 
     pygame.quit()
-
 
 if __name__ == "__main__":
     fuel_frenzy()

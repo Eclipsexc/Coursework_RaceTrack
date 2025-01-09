@@ -1,15 +1,6 @@
 #include <cmath>
-#include <vector>
-#include <string>
-#include <algorithm>
 
 using namespace std;
-
-struct VehicleData {
-    const char* name;
-    int laps;
-    int current_texture;
-};
 
 extern "C" {
     __declspec(dllexport) void check_collision(
@@ -49,32 +40,6 @@ extern "C" {
         }
         if (300 <= y && y <= 320 && 850 <= x && x <= 970 && checkpoints[3] && !checkpoints[4]) {
             checkpoints[4] = true;
-        }
-    }
-
-    __declspec(dllexport) const char* determine_leader(
-        const bool player_checkpoints[5], const bool enemy_checkpoints[5],
-        int player_laps, int enemy_laps, const char* previous_leader
-    ) {
-        auto score = [](int laps, const bool checkpoints[5]) {
-            int sum_checkpoints = 0;
-            for (int i = 0; i < 5; ++i) {
-                if (checkpoints[i]) sum_checkpoints++;
-            }
-            return laps * 100 + sum_checkpoints;
-            };
-
-        int player_score = score(player_laps, player_checkpoints);
-        int enemy_score = score(enemy_laps, enemy_checkpoints);
-
-        if (player_score > enemy_score) {
-            return "Гравець";
-        }
-        else if (player_score < enemy_score) {
-            return "Противник";
-        }
-        else {
-            return (previous_leader != nullptr) ? previous_leader : "Нічия";
         }
     }
 
@@ -152,17 +117,4 @@ extern "C" {
             );
     }
 
-    __declspec(dllexport) void sort_vehicle_data(
-        VehicleData* vehicles,
-        int size,
-        const char* leader
-    ) {
-        string leader_name(leader);
-
-        sort(vehicles, vehicles + size, [&leader_name](const VehicleData& a, const VehicleData& b) {
-            if (a.name == leader_name) return true;
-            if (b.name == leader_name) return false;
-            return a.laps > b.laps;
-            });
-    }
 }

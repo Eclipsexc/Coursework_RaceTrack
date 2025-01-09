@@ -25,8 +25,6 @@ from game_logic.ff_spawn_objects import (
     generate_repair_kit_canister,
     generate_suspicious_canister
 )
-
-
 dll_path = r"C:\CourseWork\C++\FastCompute\x64\Release\FastCompute.dll"
 logic = ctypes.CDLL(dll_path)
 

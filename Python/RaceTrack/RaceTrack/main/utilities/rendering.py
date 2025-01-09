@@ -5,22 +5,11 @@ sys.path.append(str(Path(__file__).resolve().parent.parent))
 
 import os
 import pygame
-from ctypes import CDLL, Structure, c_char_p, c_int, byref
 from game_logic.cr_logic import determine_leader
 from utilities.audio import play_music, stop_all_sounds
 import time
 
-FAST_COMPUTE_DLL_PATH = "C:/CourseWork/C++/FastCompute/x64/Release/FastCompute.dll"
-fast_compute = CDLL(FAST_COMPUTE_DLL_PATH)
-
-class VehicleData(Structure):
-    _fields_ = [
-        ("name", c_char_p),
-        ("laps", c_int),
-        ("current_texture", c_int),
-    ]
-
-def draw_screen(
+def draw_cr_screen(
     screen, game_map, car, enemy, pedestrians, black_space_width, screen_height, 
     laps_completed, player_checkpoints, enemy_checkpoints, previous_leader, max_lap
 ):
@@ -36,33 +25,34 @@ def draw_screen(
     if leader != "Нічия":
         previous_leader = leader
 
-    vehicle_data = [
-        VehicleData(name="Гравець".encode("utf-8"), laps=laps_completed[car.get_name()], current_texture=car.current_texture),
-        VehicleData(name="Противник".encode("utf-8"), laps=laps_completed[enemy.get_name()], current_texture=enemy.current_texture),
+    vehicles = [
+        {
+            "name": "Гравець",
+            "laps": laps_completed[car.get_name()],
+            "current_texture": car.current_texture,
+            "texture": pygame.transform.scale(car.textures[car.current_texture], (40, 40))
+        },
+        {
+            "name": "Противник",
+            "laps": laps_completed[enemy.get_name()],
+            "current_texture": enemy.current_texture,
+            "texture": pygame.transform.scale(enemy.textures[enemy.current_texture], (40, 40))
+        }
     ]
-    vehicle_array = (VehicleData * len(vehicle_data))(*vehicle_data)
 
-    fast_compute.sort_vehicle_data(vehicle_array, len(vehicle_data), leader.encode("utf-8"))
+    first_vehicle = vehicles[0] if leader == "Гравець" else vehicles[1]
+    second_vehicle = vehicles[1] if leader == "Гравець" else vehicles[0]
 
-    for i, vehicle in enumerate(vehicle_array, start=1):
-        texture = (
-            pygame.transform.scale(car.textures[vehicle.current_texture], (40, 40))
-            if vehicle.name.decode("utf-8") == "Гравець"
-            else pygame.transform.scale(enemy.textures[vehicle.current_texture], (40, 40))
-        )
-        screen.blit(texture, (10, 30 + i * 50))
+    for i, vehicle in enumerate([first_vehicle, second_vehicle], start=1):
+        screen.blit(vehicle["texture"], (10, 30 + i * 50))
         label_surface = font.render(
-            f"{i}) {vehicle.name.decode('utf-8')} ({vehicle.laps}/{max_lap})",
+            f"{i}) {vehicle['name']} ({vehicle['laps']}/{max_lap})",
             True, (255, 255, 255)
         )
         screen.blit(label_surface, (70, 30 + i * 50))
 
     leader_surface = font.render(f"Лідер: {leader}", True, (255, 255, 0))
     screen.blit(leader_surface, (10, screen_height - 40))
-
-    # Закоментовано координати
-    # coordinates_surface = font.render(f"Координати: ({car.get_x():.1f}, {car.get_y():.1f})", True, (255, 255, 255))
-    # screen.blit(coordinates_surface, (10, screen_height - 130))
 
     player_speed_surface = font.render(f"Гравець: {car.get_speed() * 50:.1f} км/год", True, (255, 255, 255))
     screen.blit(player_speed_surface, (10, screen_height - 100))
@@ -147,16 +137,14 @@ def draw_fuel_indicator(screen, fuel_level, SCREEN_WIDTH, SCREEN_HEIGHT):
     text_rect = fuel_text.get_rect(center=(BAR_X + BAR_WIDTH // 2, BAR_Y + BAR_HEIGHT + 15))
     screen.blit(fuel_text, text_rect)
 
-def draw_hud(screen, car, laps):
+def draw_ff_hud(screen, car, laps, max_laps):
     font = pygame.font.SysFont("Arial", 18, bold=True)
     text_color = (255, 255, 255)
 
     car_speed = car.get_speed()
     consumption_rate = car.engine.get_consumption_rate()
 
-    # coordinates_text = f"X: {car.get_x():.1f}, Y: {car.get_y():.1f}"
-
-    laps_text = f"Кіл: {laps}"
+    laps_text = f"Кіл: {laps}/{max_laps}"
     speed_text = "Швидкість:"
     speed_value_text = f"{car_speed * 40:.1f} км/год"  
     consumption_rate_text = "Розхід:"
@@ -170,11 +158,6 @@ def draw_hud(screen, car, laps):
 
     padding = 10
     current_x, current_y = 10, 10
-
-    # Закоментовано відображення координат
-    # coordinates_surface = font.render(coordinates_text, True, text_color)
-    # screen.blit(coordinates_surface, (current_x, current_y))
-    # current_y += coordinates_surface.get_height() + padding
 
     screen.blit(laps_surface, (current_x, current_y))
     current_y += laps_surface.get_height() + padding

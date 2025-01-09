@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\cr_logic.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|solutionrelative:FastCompute\\cr_logic.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\cr_logic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|solutionrelative:FastCompute\\cr_logic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\ff_spawn_objects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|solutionrelative:FastCompute\\ff_spawn_objects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\moving_obstacles.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|solutionrelative:FastCompute\\moving_obstacles.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\pedestrians.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|solutionrelative:FastCompute\\pedestrians.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\vehicle_controls.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|solutionrelative:FastCompute\\vehicle_controls.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -11,8 +31,16 @@
       "RelativeMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|solutionrelative:FastCompute\\vehicle_controls.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\cr_logic.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|solutionrelative:FastCompute\\cr_logic.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\pedestrians.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|solutionrelative:FastCompute\\pedestrians.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\ff_spawn_objects.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|solutionrelative:FastCompute\\ff_spawn_objects.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\bounds_rules.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|solutionrelative:FastCompute\\bounds_rules.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\canister_effects.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -23,40 +51,12 @@
       "RelativeMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|solutionrelative:FastCompute\\canister_effects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\cr_logic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|solutionrelative:FastCompute\\cr_logic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\ff_spawn_objects.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|solutionrelative:FastCompute\\ff_spawn_objects.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\ff_spawn_objects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|solutionrelative:FastCompute\\ff_spawn_objects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\pedestrians.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|solutionrelative:FastCompute\\pedestrians.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\pedestrians.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|solutionrelative:FastCompute\\pedestrians.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\bounds_rules.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|solutionrelative:FastCompute\\bounds_rules.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\bounds_rules.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|solutionrelative:FastCompute\\bounds_rules.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\moving_obstacles.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|solutionrelative:FastCompute\\moving_obstacles.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\moving_obstacles.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{35C67DDF-87A8-4645-8BB9-4602AC69C13A}|FastCompute\\FastCompute.vcxproj|solutionrelative:FastCompute\\moving_obstacles.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,107 +78,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "canister_effects.h",
-              "DocumentMoniker": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\canister_effects.h",
-              "RelativeDocumentMoniker": "FastCompute\\canister_effects.h",
-              "ToolTip": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\canister_effects.h",
-              "RelativeToolTip": "FastCompute\\canister_effects.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-06T00:21:12.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "canister_effects.cpp",
-              "DocumentMoniker": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\canister_effects.cpp",
-              "RelativeDocumentMoniker": "FastCompute\\canister_effects.cpp",
-              "ToolTip": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\canister_effects.cpp",
-              "RelativeToolTip": "FastCompute\\canister_effects.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-06T00:21:05.953Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "cr_logic.h",
-              "DocumentMoniker": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\cr_logic.h",
-              "RelativeDocumentMoniker": "FastCompute\\cr_logic.h",
-              "ToolTip": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\cr_logic.h",
-              "RelativeToolTip": "FastCompute\\cr_logic.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-05T23:57:02.71Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "cr_logic.cpp",
-              "DocumentMoniker": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\cr_logic.cpp",
-              "RelativeDocumentMoniker": "FastCompute\\cr_logic.cpp",
-              "ToolTip": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\cr_logic.cpp",
-              "RelativeToolTip": "FastCompute\\cr_logic.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-05T23:56:53.121Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "vehicle_controls.h",
-              "DocumentMoniker": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\vehicle_controls.h",
-              "RelativeDocumentMoniker": "FastCompute\\vehicle_controls.h",
-              "ToolTip": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\vehicle_controls.h",
-              "RelativeToolTip": "FastCompute\\vehicle_controls.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-05T23:29:34.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "vehicle_controls.cpp",
-              "DocumentMoniker": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\vehicle_controls.cpp",
-              "RelativeDocumentMoniker": "FastCompute\\vehicle_controls.cpp",
-              "ToolTip": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\vehicle_controls.cpp",
-              "RelativeToolTip": "FastCompute\\vehicle_controls.cpp",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAFIAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-05T23:29:27.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ff_spawn_objects.h",
-              "DocumentMoniker": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\ff_spawn_objects.h",
-              "RelativeDocumentMoniker": "FastCompute\\ff_spawn_objects.h",
-              "ToolTip": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\ff_spawn_objects.h",
-              "RelativeToolTip": "FastCompute\\ff_spawn_objects.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-05T23:21:49.774Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ff_spawn_objects.cpp",
-              "DocumentMoniker": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\ff_spawn_objects.cpp",
-              "RelativeDocumentMoniker": "FastCompute\\ff_spawn_objects.cpp",
-              "ToolTip": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\ff_spawn_objects.cpp",
-              "RelativeToolTip": "FastCompute\\ff_spawn_objects.cpp",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAEEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-05T23:21:44.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "pedestrians.h",
               "DocumentMoniker": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\pedestrians.h",
               "RelativeDocumentMoniker": "FastCompute\\pedestrians.h",
@@ -186,47 +86,168 @@
               "RelativeToolTip": "FastCompute\\pedestrians.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-05T23:15:28.007Z"
+              "WhenOpened": "2025-01-05T23:15:28.007Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
+              "Title": "vehicle_controls.h",
+              "DocumentMoniker": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\vehicle_controls.h",
+              "RelativeDocumentMoniker": "FastCompute\\vehicle_controls.h",
+              "ToolTip": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\vehicle_controls.h",
+              "RelativeToolTip": "FastCompute\\vehicle_controls.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-05T23:29:34.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "vehicle_controls.cpp",
+              "DocumentMoniker": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\vehicle_controls.cpp",
+              "RelativeDocumentMoniker": "FastCompute\\vehicle_controls.cpp",
+              "ToolTip": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\vehicle_controls.cpp",
+              "RelativeToolTip": "FastCompute\\vehicle_controls.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-05T23:29:27.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "pedestrians.cpp",
               "DocumentMoniker": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\pedestrians.cpp",
               "RelativeDocumentMoniker": "FastCompute\\pedestrians.cpp",
               "ToolTip": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\pedestrians.cpp",
               "RelativeToolTip": "FastCompute\\pedestrians.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-05T23:15:20.996Z"
+              "WhenOpened": "2025-01-05T23:15:20.996Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
+              "Title": "moving_obstacles.cpp",
+              "DocumentMoniker": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\moving_obstacles.cpp",
+              "RelativeDocumentMoniker": "FastCompute\\moving_obstacles.cpp",
+              "ToolTip": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\moving_obstacles.cpp",
+              "RelativeToolTip": "FastCompute\\moving_obstacles.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-05T23:08:25.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ff_spawn_objects.cpp",
+              "DocumentMoniker": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\ff_spawn_objects.cpp",
+              "RelativeDocumentMoniker": "FastCompute\\ff_spawn_objects.cpp",
+              "ToolTip": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\ff_spawn_objects.cpp",
+              "RelativeToolTip": "FastCompute\\ff_spawn_objects.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACAAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-05T23:21:44.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "cr_logic.cpp",
+              "DocumentMoniker": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\cr_logic.cpp",
+              "RelativeDocumentMoniker": "FastCompute\\cr_logic.cpp",
+              "ToolTip": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\cr_logic.cpp",
+              "RelativeToolTip": "FastCompute\\cr_logic.cpp",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAHAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-05T23:56:53.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "cr_logic.h",
+              "DocumentMoniker": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\cr_logic.h",
+              "RelativeDocumentMoniker": "FastCompute\\cr_logic.h",
+              "ToolTip": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\cr_logic.h",
+              "RelativeToolTip": "FastCompute\\cr_logic.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-05T23:57:02.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ff_spawn_objects.h",
+              "DocumentMoniker": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\ff_spawn_objects.h",
+              "RelativeDocumentMoniker": "FastCompute\\ff_spawn_objects.h",
+              "ToolTip": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\ff_spawn_objects.h",
+              "RelativeToolTip": "FastCompute\\ff_spawn_objects.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-05T23:21:49.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "bounds_rules.h",
               "DocumentMoniker": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\bounds_rules.h",
               "RelativeDocumentMoniker": "FastCompute\\bounds_rules.h",
               "ToolTip": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\bounds_rules.h",
               "RelativeToolTip": "FastCompute\\bounds_rules.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-05T23:12:20.344Z"
+              "WhenOpened": "2025-01-05T23:12:20.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "canister_effects.h",
+              "DocumentMoniker": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\canister_effects.h",
+              "RelativeDocumentMoniker": "FastCompute\\canister_effects.h",
+              "ToolTip": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\canister_effects.h",
+              "RelativeToolTip": "FastCompute\\canister_effects.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-06T00:21:12.243Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "canister_effects.cpp",
+              "DocumentMoniker": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\canister_effects.cpp",
+              "RelativeDocumentMoniker": "FastCompute\\canister_effects.cpp",
+              "ToolTip": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\canister_effects.cpp",
+              "RelativeToolTip": "FastCompute\\canister_effects.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-06T00:21:05.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "bounds_rules.cpp",
               "DocumentMoniker": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\bounds_rules.cpp",
               "RelativeDocumentMoniker": "FastCompute\\bounds_rules.cpp",
               "ToolTip": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\bounds_rules.cpp",
               "RelativeToolTip": "FastCompute\\bounds_rules.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-05T23:12:14.65Z"
+              "WhenOpened": "2025-01-05T23:12:14.65Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "moving_obstacles.h",
               "DocumentMoniker": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\moving_obstacles.h",
               "RelativeDocumentMoniker": "FastCompute\\moving_obstacles.h",
@@ -235,18 +256,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-01-05T23:08:33.3Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "moving_obstacles.cpp",
-              "DocumentMoniker": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\moving_obstacles.cpp",
-              "RelativeDocumentMoniker": "FastCompute\\moving_obstacles.cpp",
-              "ToolTip": "C:\\CourseWork\\C\u002B\u002B\\FastCompute\\FastCompute\\moving_obstacles.cpp",
-              "RelativeToolTip": "FastCompute\\moving_obstacles.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-05T23:08:25.691Z"
             }
           ]
         }

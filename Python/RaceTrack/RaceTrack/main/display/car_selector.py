@@ -101,23 +101,22 @@ def create_car_selection(screen, mode, spawn, forbidden_choices):
         x, y = 705, 185
 
     if mode == "classic race":
-        selected_car = handle_classic_race_mode(
-            screen, background, clock, spawn, forbidden_choices, car_x, car_y, animation_index, frame_counter
-        )
+        selected_car = handle_classic_race_mode(screen, background, clock, x, y, car_x, car_y, forbidden_choices, spawn)
+
     elif mode == "fuel frenzy":
-        selected_car = handle_fuel_frenzy_mode(
-            screen, background, clock, car_x, car_y, x, y, animation_index, frame_counter
-        )
+        selected_car = handle_fuel_frenzy_mode(screen, background, clock, x, y, car_y, spawn)
 
     return selected_car
 
-def handle_classic_race_mode(screen, background, clock, spawn, forbidden_choices, car_x, car_y, animation_index, frame_counter):
+def handle_classic_race_mode(screen, background, clock, x, y, car_x, car_y, forbidden_choices, spawn):
     temp_bolide = Bolide(0, 0, 0)
     temp_supercar = Supercar(0, 0, 0)
 
     bolide_texture_count = get_texture_count_from_sprite(temp_bolide.get_textures_path(), temp_bolide.get_sprite_dimensions()[1])
     supercar_texture_count = get_texture_count_from_sprite(temp_supercar.get_textures_path(), temp_supercar.get_sprite_dimensions()[1])
 
+    frame_counter = 0
+    animation_index = 0
     running = True
     selected_car = None
 
@@ -242,14 +241,16 @@ def handle_classic_race_mode(screen, background, clock, spawn, forbidden_choices
     forbidden_choices.append((selected_car.get_type(), car_y))
 
     if selected_car.get_type() == "Supercar":
-        return Supercar(0, 0, car_y)
+        return Supercar(x, y, car_y)
     else:
-        return Bolide(0, 0, car_y)
+        return Bolide(x, y, car_y)
 
-def handle_fuel_frenzy_mode(screen, background, clock, car_x, car_y, x, y, animation_index, frame_counter):
+def handle_fuel_frenzy_mode(screen, background, clock, x, y, car_y, spawn):
     temp_car = CarWithFuel(x, y, 0)
     texture_count = get_texture_count_from_sprite(temp_car.get_textures_path(), temp_car.get_sprite_dimensions()[0])
 
+    frame_counter = 0
+    animation_index = 0
     running = True
 
     while running:
